@@ -13,6 +13,7 @@
 		84E0C0FD1F040ED5004429B5 /* Camera_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E0C0FB1F040ED5004429B5 /* Camera_test.xcdatamodeld */; };
 		84E0C0FF1F040ED5004429B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E0C0FE1F040ED5004429B5 /* Assets.xcassets */; };
 		84E0C1021F040ED5004429B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0C1001F040ED5004429B5 /* LaunchScreen.storyboard */; };
+		84E0C10A1F040FCD004429B5 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0C1091F040FCD004429B5 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84E0C0FE1F040ED5004429B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E0C1011F040ED5004429B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E0C1031F040ED5004429B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E0C1091F040FCD004429B5 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				84E0C0F41F040ED5004429B5 /* AppDelegate.swift */,
 				84E0C0F61F040ED5004429B5 /* ViewController.swift */,
+				84E0C1091F040FCD004429B5 /* PhotoViewController.swift */,
 				84E0C0F81F040ED5004429B5 /* Main.storyboard */,
 				84E0C0FE1F040ED5004429B5 /* Assets.xcassets */,
 				84E0C1001F040ED5004429B5 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E0C0F71F040ED5004429B5 /* ViewController.swift in Sources */,
+				84E0C10A1F040FCD004429B5 /* PhotoViewController.swift in Sources */,
 				84E0C0F51F040ED5004429B5 /* AppDelegate.swift in Sources */,
 				84E0C0FD1F040ED5004429B5 /* Camera_test.xcdatamodeld in Sources */,
 			);
